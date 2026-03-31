@@ -8,8 +8,18 @@ body {
     align-items: center;
     height: 700px;
     margin: 0;
-}
 
+    }
+
+    .passo {
+        display: flex;
+        flex-direction: column; 
+        gap: 10px;              
+      }
+      .passo.ativo {
+        display:block;
+    }
+      
 button {
     background-color: #36b155;
     color: rgb(255, 249, 249);
