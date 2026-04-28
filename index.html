@@ -1,38 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
-        <title>site do jefferson</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Site do Jefferson</title>
 </head>
-
-</body>
+<body>
 <main>
-        <div class="passo ativo" id="passo-0">
-            <img src="img/mapa.png" alt="k">
-            <p>Um dia desses, dentro de um livro da biblioteca da escola, descobri uma carta antiga sobre uma cidade perdida, escondida por riquezas e belezas naturais. Nessa carta, a autora deixa algumas pistas para encontrar essa cidade e eu decidi segui-las!</p>
-            <button class="btn-proximo" data-proximo="1">Rio de Janeiro</button>
-            <button class="btn-proximo" data-proximo="2">Pernambuco</button>
-        </div>
-        <div class="passo" id="passo-1">
-            <p>Você começa sua jornada no Rio de Janeiro, subindo o Pico da Tijuca ao amanhecer para encontrar a primeira pista.</p>
-            <button class="btn-proximo" data-proximo="3">Procurar a pista no topo do pico</button>
-            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
-        </div>
-        <div class="passo" id="passo-2">
-            <p>Em Pernambuco, você visita a histórica cidade de Olinda. Na carta, uma das pistas indica que para localizar a entrada para a cidade perdida você deve procurar a próxima pista em um dos pontos turísticos da cidade. Por qual você começa?</p>
-            <button class="btn-proximo" data-proximo="5">Investigar as igrejas antigas</button>
-            <button class="btn-proximo" data-proximo="6">Explorar as praias próximas</button>
-        </div>
+  <div class="passo ativo" id="passo-0">
+    <img src="img/mapa.png" alt="Mapa antigo">
+    <p>Você encontra um mapa misterioso que indica o início da jornada.</p>
+    <button class="btn-proximo" data-proximo="1">Seguir viagem</button>
+  </div>
 
+  <div class="passo" id="passo-1">
+    <img src="img/caverna-cristal.png" alt="Caverna de Cristal">
+    <p>Você entra em uma caverna brilhante, cheia de cristais reluzentes.</p>
+    <button class="btn-proximo" data-proximo="2">Explorar mais fundo</button>
+  </div>
+
+  <div class="passo" id="passo-2">
+    <img src="img/caverna-escura.png" alt="Caverna Escura">
+    <p>A luz desaparece e você se vê em uma caverna escura e silenciosa.</p>
+    <button class="btn-proximo" data-proximo="3">Acender uma tocha</button>
+  </div>
+
+  <div class="passo" id="passo-3">
+    <img src="img/lua-vermelha.png" alt="Lua Vermelha">
+    <p>Ao sair da caverna, uma lua vermelha ilumina o céu.</p>
+    <button class="btn-proximo" data-proximo="4">Seguir pelas montanhas</button>
+  </div>
+
+  <div class="passo" id="passo-4">
+    <img src="img/montanhas.png" alt="Montanhas">
+    <p>Você atravessa montanhas imponentes em busca da próxima pista.</p>
+    <button class="btn-proximo" data-proximo="5">Descer até o oceano</button>
+  </div>
+
+  <div class="passo" id="passo-5">
+    <img src="img/oceano.png" alt="Oceano">
+    <p>O som das ondas guia sua jornada até o horizonte.</p>
+    <button class="btn-proximo" data-proximo="6">Viajar até o planeta azul</button>
+  </div>
+
+  <div class="passo" id="passo-6">
+    <img src="img/planeta-azul.png" alt="Planeta Azul">
+    <p>Você descobre um planeta azul, cheio de mistérios.</p>
+    <button class="btn-proximo" data-proximo="7">Seguir até o destino final</button>
+  </div>
+
+  <div class="passo" id="passo-7">
+    <img src="img/HH.png" alt="HH">
+    <p>Finalmente, você chega ao HH, o destino final da jornada.</p>
+    <button class="btn-proximo" data-proximo="0">Recomeçar</button>
+  </div>
 </main>
 
-
-    <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
